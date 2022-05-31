@@ -20,4 +20,6 @@
 
 <h2 style="color: peachpuff"> Add PostCSS </h2>
 
+These are used mostly for adding vendor prefixes https://caniuse.com/
+
 `npm i -D postcss postcss-preset-env postcss-loader`
