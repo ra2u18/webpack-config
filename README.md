@@ -17,3 +17,7 @@
 ## <p style="color: peachpuff"> Add SASS </p>
 
 `npm i -D sass sass-loader`
+
+## <p style="color: peachpuff"> Add PostCSS </p>
+
+`npm i -D postcss postcss-preset-env postcss-loader`
