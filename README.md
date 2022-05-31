@@ -13,3 +13,7 @@
 <b>The difference between style-loader and what we have below is that the forementioned one is injecting css, whereas css-loader is creating a global resource main.css file.</b>
 
 `npm i -D css-loader mini-css-extract-plugin`
+
+## <p style="color: peachpuff"> Add SASS </p>
+
+`npm i -D sass sass-loader`
