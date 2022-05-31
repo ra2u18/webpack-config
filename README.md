@@ -23,3 +23,11 @@
 These are used mostly for adding vendor prefixes https://caniuse.com/
 
 `npm i -D postcss postcss-preset-env postcss-loader`
+
+<h2 style="color: peachpuff"> Add React </h2>
+
+`npm i react react-dom`
+
+Transpile react
+
+`npm i -D @babel/preset-react`

@@ -24,7 +24,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.js$/,
+        test: /\.jsx?$/, // support for js and jsx
         exclude: /node_modules/,
         use: {
           loader: "babel-loader",
@@ -34,6 +34,11 @@ module.exports = {
   },
 
   plugins: [new MiniCssExtractPlugin()],
+
+  resolve: {
+    // Whenever you import something, don't add extension at the end
+    extensions: [".js", ".jsx"],
+  },
 
   devtool: "source-map",
   devServer: {
