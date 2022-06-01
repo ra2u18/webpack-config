@@ -31,3 +31,14 @@ These are used mostly for adding vendor prefixes https://caniuse.com/
 Transpile react
 
 `npm i -D @babel/preset-react`
+
+<h2 style="color: peachpuff"> Add Html Webpack plugin </h2>
+
+`npm i -D html-webpack-plugin`
+
+<h2 style="color: peachpuff"> Clean Webpack plugin </h2>
+
+This plugin will take a package.json script and will append in front a cleaning script.
+It's the same as having "build": "npm run clean && NODE_ENV=production webpack"
+
+`npm i -D clean-webpack-plugin`
