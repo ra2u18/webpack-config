@@ -42,3 +42,10 @@ This plugin will take a package.json script and will append in front a cleaning 
 It's the same as having "build": "npm run clean && NODE_ENV=production webpack"
 
 `npm i -D clean-webpack-plugin`
+
+<h2 style="color: peachpuff"> React Hot Reloading </h2>
+
+If we are hot reloading too much, you can add at the top of a jsx file
+the following pragma command: `@refresh reset`
+
+`npm install -D @pmmmwh/react-refresh-webpack-plugin react-refresh`
